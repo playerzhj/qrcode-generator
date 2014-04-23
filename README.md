@@ -25,7 +25,7 @@
 
 ## 注意点
 
-* qrcode-generator只包含前端部分，二维码图片的具体生成请自行搭建服务器，可参考[phpqrcode](http://phpqrcode.sourceforge.net/)
+* qrcode-generator只包含前端部分，目前提供生成二维码图片的服务器[http://qrcode.weijian21.cn/api.php?data=${data}&level=${level}&size=${size}](http://www.weijian21.cn/)为作者自己搭建，如果需要自己搭建，可参考[phpqrcode](http://phpqrcode.sourceforge.net/)
 
 ## TODO
 
