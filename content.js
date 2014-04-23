@@ -35,8 +35,11 @@ chrome.runtime.onMessage.addListener(
 				showDiv.className = "bounceInDown";
 			}
 			
+			// escape html
 			var sourceCon = document.getElementById("source-con");
-			sourceCon.innerHTML = msg;
+			var div = document.createElement("div");
+			div.appendChild(document.createTextNode(msg));
+			sourceCon.innerHTML = div.innerHTML;
 
 		} else {
 			// receive data
