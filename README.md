@@ -18,7 +18,7 @@
 4. 右键点击浏览器的空白页，就会弹出包含**展现当前页面地址的二维码**功能项
 5. go.go.go.
 
-## 使用到的技术
+## 技术点
 
 * `chrome extension` [开发指南](https://developer.chrome.com/extensions/index)
 * CSS3 动画编辑生成 [生成地址](http://ecd.tencent.com/css3/tools.html)
