@@ -1,0 +1,22 @@
+{
+	"name": "Simple QR Code Generate",
+	"version": "0.1",
+	"description": "Right - click in the web page, then qr-code-image will show!",
+	"icons": {
+		"16":"qrsample16.png",
+		"48":"qrsample48.png",
+		"128":"qrsample128.png"
+	},
+	"permissions": ["contextMenus", "<all_urls>"],
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js":["content.js"],
+		"css":["div.css"],
+		"run_at":"document_end"
+	}],
+	"manifest_version": 2
+}
