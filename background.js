@@ -17,7 +17,7 @@ function onClickHandler(info, tab) {
 		source = info.srcUrl;
 	}
 
-	// first tell content-script to show something
+	// tell content-script to show something firstly
 	testRequest({'code':0, 'source': source});
 
 	var url = "http://qrcode.weijian21.cn/api.php?";
