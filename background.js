@@ -38,7 +38,6 @@ function onClickHandler(info, tab) {
 function testRequest(params) {
 	chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
 		var tab = tabs[0];
-		console.log(123);
 		chrome.tabs.sendMessage(tab.id, params, function(response) {
 			if (chrome.runtime.lastError) {
 				console.log("ERROR: ", chrome.runtime.lastError);
