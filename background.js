@@ -62,6 +62,7 @@ chrome.runtime.onInstalled.addListener(function() {
 		"video":"展示当前视频的二维码",
 		"audio":"展示当前音频的二维码"
 	}
+
 	for (var i = 0; i < contexts.length; i++) {
 		var context = contexts[i];
 		var title = contextsShow[context];
