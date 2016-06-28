@@ -20,7 +20,7 @@ function onClickHandler(info, tab) {
 	// tell content-script to show something firstly
 	testRequest({'code':0, 'source': source});
 
-	var url = "http://qrcode.weijian21.cn/api.php?";
+	var url = "http://qrcode.67tian.com/api.php?";
 	url += "data=" + encodeURIComponent(source) + "&level=H&size=10";
 
 	var imgurl = '';
